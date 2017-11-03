@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexControlller {
 
     @GetMapping
-    public TestUserDto index(){
+    public TestUserDto index() {
         TestUserDto testUserDto = new TestUserDto();
         testUserDto.setUserName("zhangsan");
         testUserDto.setAge(18);
